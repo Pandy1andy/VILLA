@@ -1,0 +1,79 @@
+body{
+    margin: auto;padding: 0;
+    
+}
+.booking-section {
+    width: 40%;
+    background-color: #00000052;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .booking-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 0;
+  }
+
+  
+  .booking-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .form-group {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .booking-btn {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-btn:hover {
+    background-color: #0056b3;
+  }
+  .Fon{
+    background: url(Фон.jpeg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+  }
